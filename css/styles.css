@@ -1,0 +1,56 @@
+header {
+  text-align: center;
+    background-color: red;
+}
+body {
+  background-color: #4863A0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  background-color: red;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
+}
+
+#left-side {
+  float: left;
+}
+
+#right-side {
+  float: right;
+  font-size: 25px;
+  margin: 16px 0 16px 0;
+}
+
+a, a:link, a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+a:hover, a:focus {
+  color: #29506D;
+}
+
+a:visited {
+  color: #AAA;
+}
+
+#main-pic {
+  text-align: center;
+  clear: both;
+  border-top: 1px solid white;
+}
+#main-pic img {
+  border: 5px solid white;
+  border-radius: 70%;
+  margin-bottom: 20px;
+}
+
+#main-name {
+  font-size: 60px;
+}
