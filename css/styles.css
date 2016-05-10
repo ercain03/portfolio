@@ -17,13 +17,19 @@ nav li {
   margin-right: 10px;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+  background-color: inherit;
+}
+
 #left-side {
   float: left;
 }
 
 #right-side {
   float: right;
-  font-size: 25px;
+  font-size: 30px;
   margin: 16px 0 16px 0;
 }
 
@@ -53,4 +59,43 @@ a:visited {
 
 #main-name {
   font-size: 60px;
+  margin: 30px 0 25px 0;
+}
+
+.icon-github:before {
+  color: red;
+}
+
+.icon-twitter:before {
+  color: red;
+}
+
+.icon-linkedin:before {
+  color: red;
+}
+
+.icon-google-plus2:before {
+  color: red;
+}
+
+.icon-facebook2:before {
+  color: red;
+}
+
+/*media queries*/
+
+@@media only screen and (max-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+  #left-side ul {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  #right-side li {
+    display: inline-block;
+    width: 17%;
+    text-align: center;
+  }
 }
