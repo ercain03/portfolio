@@ -42,3 +42,41 @@
 .icon-linkedin:before {
     content: "\e904";
 }
+
+.template img {
+  width: 12em;
+  height: 12em;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  background-color: inherit;
+}
+
+#left-side {
+  float: left;
+}
+
+#right-side {
+  float: right;
+  font-size: 30px;
+  margin: 10px 0 16px 0;
+}
+
+
+#main-pic {
+  text-align: center;
+  clear: both;
+  border-top: 1px solid white;
+}
+#me {
+  border: 5px solid white;
+  border-radius: 70%;
+  margin-bottom: 20px;
+}
+
+#main-name {
+  font-size: 60px;
+  margin: 30px 0 25px 0;
+}

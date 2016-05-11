@@ -1,0 +1,29 @@
+body {
+  background-color: #4863A0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+nav {
+  background-color: red;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
+}
+
+a, a:link, a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+a:hover, a:focus {
+  color: #29506D;
+}
+
+a:visited {
+  color: #AAA;
+}
